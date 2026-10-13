@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "ResortHub – Resort Operations",
+  "short_name": "ResortHub",
+  "description": "Multi-resort reservations, front office, housekeeping and finance.",
+  "start_url": "./index.html#dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0c2623",
+  "theme_color": "#0c2623",
+  "categories": ["business", "productivity", "travel"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Bookings", "url": "./index.html#bookings" },
+    { "name": "Housekeeping", "url": "./index.html#housekeeping" }
+  ]
+}
